@@ -23,7 +23,7 @@ if [ ! -d $dest ]; then
     $sudo install -d -o $owner -g $owner -m 755 $dest
 fi
 
-version"1.6.0"
+version="1.6.0"
 packages="DnsClient"
 
 echo "INFO: Installing DnsClient.NET package to $dest"
