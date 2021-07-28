@@ -14,7 +14,7 @@ if [ -z "$1" ]; then
 else
   # Specify an alternate folder to install without sudo
   dest=$1
-  sudo=""
+  sudo="sudo"
   owner=$USER
 fi
 
